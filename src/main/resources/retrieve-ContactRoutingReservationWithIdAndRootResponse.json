@@ -1,0 +1,9 @@
+{
+  "servicingResourceAllocationReference" : "SRAR74568",
+  "servicingResourceQualificationProfile" : "Profile 1",
+  "servicingResourceSchedule" : "2012-12-20T17:25:32",
+  "servicingResourceReference" : "SRR78469",
+  "servicingResourceAllocationServiceSchedule" : "allocation schedule",
+  "servicingResourceReservationRecord" : {},
+  "servicingResourceReservationRequestReference" : "SRRR8762"
+}

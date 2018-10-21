@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ template "service-domain-contact-routing.fullname" . }}
+  labels:
+    app: {{ template "service-domain-contact-routing.name" . }}
+    chart: {{ template "service-domain-contact-routing.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+    app: {{ template "service-domain-contact-routing.name" . }}
+    release: {{ .Release.Name }}

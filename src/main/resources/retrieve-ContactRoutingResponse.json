@@ -1,0 +1,9 @@
+{
+  "servicingResourceAllocationReference" : "SRAR5689",
+  "servicingResourceQualificationProfile" : "New document",
+  "servicingPositionReference" : "SPR78925",
+  "servicingResourceStatus" : "Active",
+  "servicingSessionReference" : "SSR47896",
+  "servicingResourceSchedule" : "09:00:00 to 18:00:00",
+  "servicingResourceReference" : "SRR12456"
+}
